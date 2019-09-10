@@ -1,0 +1,12 @@
+{
+    "data": [{
+        "name": "Idea",
+        "lowest_price": 100,
+        "rating": 4.5,
+        "max_speed": "250",
+        "description": "Idea providers",
+        "contact_no": "8888688944",
+        "email": "sagarjdhv968@gmail.com",
+        "url": "www.idea.com"
+    }]
+}
