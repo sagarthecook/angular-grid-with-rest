@@ -1,0 +1,18 @@
+<amexio-datagrid *ngIf="providersList" [enable-checkbox]="false" title="Providers Details" [data]="providersList" [page-size]="10" [global-filter]="true">
+    <amexio-data-table-column [width]="10" [data-index]="'name'" [data-type]="'string'" [hidden]="false" [text]="'Name'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'max_speed'" [data-type]="'string'" [hidden]="false" [text]="'Max Speed'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'description'" [data-type]="'string'" [hidden]="false" [text]="'Description'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'contact_no'" [data-type]="'string'" [hidden]="false" [text]="'Contact No'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'email'" [data-type]="'string'" [hidden]="false" [text]="'Email'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'url'" [data-type]="'string'" [hidden]="false" [text]="'URL'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'lowest_price'" [data-type]="'number'" [hidden]="false" [text]="'Lowest Price'">
+    </amexio-data-table-column>
+    <amexio-data-table-column [width]="10" [data-index]="'rating'" [data-type]="'string'" [hidden]="false" [text]="'Rating'">
+    </amexio-data-table-column>
+</amexio-datagrid>
